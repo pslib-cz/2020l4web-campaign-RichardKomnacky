@@ -3,4 +3,4 @@
 
 [Demo Site](https://richardkomnacky.github.io/index.html)
 
-**[DEMO](https://pslib-cz.github.io/2020l4web-campaign-RichardKomnacky/index.html)** site for previews
+**[DEMO](https://pslib-cz.github.io/2020l4web-campaign-RichardKomnacky/)** site for previews

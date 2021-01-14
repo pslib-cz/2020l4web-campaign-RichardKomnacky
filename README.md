@@ -3,5 +3,5 @@
 
 [Demo Site](https://richardkomnacky.github.io/index.html)
 
-**[DEMO](https://git@github.com:pslib-cz/2020l4web-campaign-RichardKomnacky.git)** site for previews
+**[DEMO](https://https://github.com/pslib-cz/2020l4web-campaign-RichardKomnacky.git)** site for previews
 

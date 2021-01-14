@@ -1,0 +1,452 @@
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url("/Font/Open_Sans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 600;
+    src: url("/Font/Josefin_Sans/JosefinSans-Regular.ttf");
+}
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans";
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+ul {
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.logo {
+    height: 65px;
+    width: auto;
+}
+
+li {
+    margin: auto 20px;
+    padding: 0;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: rgb(120, 120, 120);
+    transition: 0.6s;
+}
+
+.bi {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-image: url("./Img/Background_Img.jpg");
+    padding: 80px 0px 0px 0px;
+    margin: 0;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+h1, h2 {
+    margin: auto 0;
+    padding: 0;
+    color: white;
+    font-family: "Josefin Sans";
+    font-weight: 600;
+    text-align: center;
+}
+ h1 {
+    font-size: 7em;
+    text-align: center;
+ }
+
+ h2 {
+    font-size: 6em;
+    width: 500px;
+ }
+
+
+
+
+
+main {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 60px auto;
+    padding: 0;
+}
+
+article {
+    margin: auto 0;
+    padding: 0;
+    width: 600px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    font-family: "Josefin Sans";
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+p {
+    font-family: "Open Sans";
+    font-size: 1.2em;
+    display: block;
+}
+
+main img {
+    height: auto;
+    width: 600px;
+}
+
+
+
+
+
+footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    background: rgb(17, 17, 17);
+    color: white;
+    font-family: "Open Sans";
+}
+
+footer h3 {
+    margin: 40px 60px;
+    padding: 0;
+}
+
+.fd {
+    margin: 0px 40px 40px 40px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+footer section {
+    margin: 0;
+    padding: 0;
+}
+
+footer ul  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 180px;
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+}
+
+
+
+
+
+@media only screen and (max-width: 1120px) {
+
+    main img {
+        width: 400px;
+    }
+
+    article {
+        width: 550px;
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    h2 {
+        font-size: 4em;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    main img {
+        width: 380px;
+    }
+
+    article {
+        width: 450px;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+
+    main img {
+        width: 350px;
+    }
+
+    article {
+        width: 350px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+
+    section {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    main img {
+        width: 600px;
+    }
+
+    article {
+        width: 600px;
+    }
+
+    article, figure {
+        margin: 10px auto;
+        text-align: center;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .bi {
+        height: 400px;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 3em;
+        width: 150px;
+    }
+
+    header {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+    main img {
+        width: 500px;
+    }
+
+    article {
+        width: 500px;
+    }
+
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 3em;
+        width: 150px;
+    }
+
+    header a {
+        font-size: 0.8em;
+    }
+
+    header ul {
+        height: 50px;
+    }
+
+    .logo {
+        height: 40px;
+    }
+
+    header li {
+        margin: auto 10px;
+    }
+
+    .bi {
+        padding: 50px 0px 0px 0px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    h2 {
+        font-size: 2em;
+        width: 100px;
+    }
+
+    .bi {
+        height: 250px;
+    }
+
+    article {
+        width: 410px;
+    }
+
+    figure img {
+        width: 410px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+        width: 50px;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    footer h3 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .bi {
+        height: 200px;
+    }
+
+    section {
+        margin: 5px auto;
+    }
+
+    article {
+        width: 320px;
+    }
+
+    figure img {
+        width: 320px;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    footer li {
+        font-size: 0.8em;
+    }
+
+    header a {
+        font-size: 0.6em;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    h1 {
+        font-size: 1.2em;
+    }
+
+    h2 {
+        font-size: 1em;
+        width: 30px;
+    }
+
+    .bi {
+        height: 150px;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    footer h3 {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    section {
+        margin: 5px auto;
+    }
+
+    article {
+        width: 310px;
+    }
+
+    figure img {
+        width: 310px;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    footer li {
+        font-size: 0.8em;
+    }
+
+    header a {
+        font-size: 0.5em;
+    }
+}
